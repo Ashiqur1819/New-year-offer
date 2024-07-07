@@ -22,7 +22,7 @@ color: #070211;
 header{
 height: 600px;
 width: 1280px;
-background-image: linear-gradient(rgba(7, 2, 17, 0.9), rgba(255, 255, 255, 0)),url("/images/Banner\ Image.png");
+background-image: linear-gradient(rgba(7, 2, 17, 0.9), rgba(255, 255, 255, 0)),url("../images/banner\ image.png");
 background-size: cover;
 background-position: center;
 border-radius: 10px;
@@ -68,7 +68,7 @@ margin-top: 0;
 .welcome{
 height: 600px;
 width: 1280px;
-background-image: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(58, 58, 58, 0.1)), url("/images/Group\ 70.png"),url("/images/Vectorrr.png") ;
+background-image: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(58, 58, 58, 0.1)), url("../images/group\ 70.png"),url("../images/vectorrr.png") ;
 background-position: center, right;
 border-radius: 10px;
 background-repeat: no-repeat;
@@ -182,7 +182,7 @@ margin-top: 30px;
 .holiday{
 width: 1280px;
 height: 1080px;
-background-image: url("/images/Group\ 44.png"), url("/images/Group\ 75.png"), url("/images/Rectangle\ 2.png");
+background-image: url("../images/group\ 44.png"), url("../images/group\ 75.png"), url("../images/rectangle\ 2.png");
 background-repeat: no-repeat;
 background-position: right, bottom left, bottom;
 margin: 0 auto;
