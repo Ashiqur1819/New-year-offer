@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* Shared classes starts here */
+.primary-font{
+font-family: "Merriweather", serif;
+}
+.secondary-font{
+font-family: "Inter", sans-serif;
+}
+.text-center{
+text-align: center;
+}
+.text-primary{
+color: #FF0000;
+}
+.text-secondary{
+color: #070211;
+}
+/* Shared classes ends here */
+
+/* Header section starts here */
+header{
+height: 600px;
+width: 1280px;
+background-image: linear-gradient(rgba(7, 2, 17, 0.9), rgba(255, 255, 255, 0)),url("/images/Banner\ Image.png");
+background-size: cover;
+background-position: center;
+border-radius: 10px;
+margin: 50px auto;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 150px;
+}
+.banner-sub-title{
+font-size: 32px;
+font-weight: 400;
+line-height: 0;
+}
+.banner-title{
+font-size: 72px;
+font-weight: bolder;
+}
+/* Header section ends here */
+
+/* Catagory section starts here */
+.catagory{
+margin-bottom: 150px;
+}
+.catagory-off{
+font-size: 88px;
+margin-bottom: 50px;
+}
+.catagory-title{
+font-size: 24px;
+font-weight: 600;
+letter-spacing: 1px;
+}
+.catagory-sub-title{
+font-size: 48px;
+margin-top: 0;
+}
+/* Catagory section ends here */
+
+/* Welcome section starts here */
+.welcome{
+height: 600px;
+width: 1280px;
+background-image: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(58, 58, 58, 0.1)), url("/images/Group\ 70.png"),url("/images/Vectorrr.png") ;
+background-position: center, right;
+border-radius: 10px;
+background-repeat: no-repeat;
+margin: 50px auto;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 150px;
+}
+.welcome-container{
+padding: 150px;
+}
+.banner-title{
+font-size: 64px;
+}
+.banner-description{
+font-size: 18px;
+opacity: .8;
+margin-bottom: 50px;
+line-height: 30px;
+}
+.welcome-btn{
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+.welcome-container a{
+text-decoration: none;
+}
+.join{
+width: 1280px;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+background: linear-gradient(rgb(255, 0, 0, .1), rgba(255, 0, 0, 0));
+border-radius: 10px;
+}
+.join-tile{
+font-size: 32px;
+font-weight: 600;
+}
+.join-btn{
+padding: 15px 25px;
+font-size: 18px;
+font-weight: bold;
+border: 1px solid #FF0000;
+border-radius: 5px;
+background-color: #FF0000;
+color: white;
+margin-top: 20px;
+cursor: pointer;
+transition: .3s;
+}
+.join-btn:hover{
+background: linear-gradient(45deg, rgb(255, 0, 0, .1), rgba(255, 0, 0, 0));
+color: #FF0000;
+transition: .3s;
+}
+/* Welcome section ends here */
+
+/* Best offer section starts here */
+.best-offer{
+width: 1280px;
+height: 400px;
+margin: 0 auto;
+display: flex;
+gap: 100px;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+margin-bottom: 150px;
+}
+.best-offer-first-div, .best-offer-second-div, .best-offer-third-div{
+width: 33.33%;
+}
+.best-offer-first-div-sub-title{
+font-size: 24px;
+font-weight: 600;
+}
+.best-offer-first-div-title{
+font-size: 48px;
+line-height: 0;
+}
+.best-offer-description{
+font-size: 18px;
+opacity: .6;
+text-align: justify;
+line-height: 30px;
+}
+.best-offer-img-div{
+outline: 15px solid #FF0000;
+border-radius: 50%;
+}
+.best-offer-img-div img{
+margin: 20px;
+}
+.best-offer-third-div-title{
+font-size: 48px;
+line-height: 0;
+}
+.best-offer-third-div-img{
+width: 20%;
+margin-top: 30px;
+}
+/* Best offer section ends here */
+
+/* Holiday section starts here */
+.holiday{
+width: 1280px;
+height: 1080px;
+background-image: url("/images/Group\ 44.png"), url("/images/Group\ 75.png"), url("/images/Rectangle\ 2.png");
+background-repeat: no-repeat;
+background-position: right, bottom left, bottom;
+margin: 0 auto;
+margin-top: 200px;
+border-radius: 10px;
+margin-bottom: 150px;
+}
+.holiday-sub-title{
+font-size: 24px;
+letter-spacing: 1px;
+}
+.holiday-title{
+font-size: 72px;
+line-height: 0;
+}
+.holiday-description{
+font-size: 18px;
+padding: 0 150px;
+opacity: .6;
+margin-top: 30px;
+line-height: 30px;
+}
+
+/* Gift section */
+.gift{
+width: 1280px;
+margin: 0 auto;
+margin-bottom: 150px;
+}
+.gift-text-sub-title{
+font-size: 24px;
+font-weight: 600;
+}
+.gift-text-title{
+font-size: 48px;
+line-height: 0;
+}
+.gift-description{
+font-size: 18px;
+opacity: .6;
+line-height: 30px;
+}
+.gift-images{
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 50px;
+}
+.gift-img{
+width: 32%;
+margin-bottom: 25px;
+}
+/* Holiday section ends here */
+
+/* Footer section starts here */
+.footer{
+width: 1280px;
+margin: 0 auto;
+background: linear-gradient(rgb(255, 0, 0, 0.05), rgb(255, 0, 0, 0.05));
+border-radius: 10px;
+}
+.footer-container{
+padding: 100px;
+}
+.footer-title{
+font-size: 48px;
+}
+.footer-description{
+opacity: .6;
+word-spacing: 1px;
+line-height: 30px;
+}
+.footer-input{
+padding: 15px 50px;
+border: none;
+box-shadow: 5px 5px 10px rgb(211, 211, 211);
+outline: none;
+}
+input[type="email"]{
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+margin-right: -5px;
+background-color: rgb(255, 255, 255);
+font-size: 20px;
+border: 1px solid white;
+}
+input[type="submit"]{
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+background-color: #FF0000;
+color: white;
+font-size: 20px;
+border: 1px solid #FF0000;
+transition: .3s;
+cursor: pointer;
+}
+.copyright{
+opacity: .6;
+padding: 10px 0;
+}
+/* Footer section ends here */
