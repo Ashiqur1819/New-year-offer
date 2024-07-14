@@ -21,7 +21,7 @@ color: #070211;
 /* Header section starts here */
 header{
 height: 600px;
-width: 1280px;
+width: 1140px;
 background-image: linear-gradient(rgba(7, 2, 17, 0.9), rgba(255, 255, 255, 0)),url("../images/banner.png");
 background-size: cover;
 background-position: center;
@@ -67,7 +67,7 @@ margin-top: 0;
 /* Welcome section starts here */
 .welcome{
 height: 600px;
-width: 1280px;
+width: 1140px;
 background-image: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(58, 58, 58, 0.1)), url("../images/group_70.png"),url("../images/vector.png") ;
 background-position: center, right;
 border-radius: 10px;
@@ -99,8 +99,11 @@ font-size: 20px;
 .welcome-container a{
 text-decoration: none;
 }
+/* Welcome section ends here */
+
+/* Join section starts here */
 .join{
-width: 1280px;
+width: 1140px;
 height: 500px;
 display: flex;
 align-items: center;
@@ -130,11 +133,11 @@ background: linear-gradient(45deg, rgb(255, 0, 0, .1), rgba(255, 0, 0, 0));
 color: #FF0000;
 transition: .3s;
 }
-/* Welcome section ends here */
+/* Join section ends here */
 
 /* Best offer section starts here */
 .best-offer{
-width: 1280px;
+width: 1140px;
 height: 400px;
 margin: 0 auto;
 display: flex;
@@ -153,7 +156,7 @@ font-weight: 600;
 }
 .best-offer-first-div-title{
 font-size: 48px;
-line-height: 0;
+line-height: 50px;
 }
 .best-offer-description{
 font-size: 18px;
@@ -180,8 +183,8 @@ margin-top: 30px;
 
 /* Holiday section starts here */
 .holiday{
-width: 1280px;
-height: 1080px;
+width: 1140px;
+height: 992px;
 background-image: url("../images/group_44.png"), url("../images/group_75.png"), url("../images/rectangle_2.png");
 background-repeat: no-repeat;
 background-position: right, bottom left, bottom;
@@ -205,10 +208,11 @@ opacity: .6;
 margin-top: 30px;
 line-height: 30px;
 }
+/* Holiday section ends here */
 
-/* Gift section */
+/* Gift section starts here*/
 .gift{
-width: 1280px;
+width: 1140px;
 margin: 0 auto;
 margin-bottom: 150px;
 }
@@ -236,11 +240,11 @@ margin-top: 50px;
 width: 32%;
 margin-bottom: 25px;
 }
-/* Holiday section ends here */
+/* Gift section ends here*/
 
 /* Footer section starts here */
 .footer{
-width: 1280px;
+width: 1140px;
 margin: 0 auto;
 background: linear-gradient(rgb(255, 0, 0, 0.05), rgb(255, 0, 0, 0.05));
 border-radius: 10px;
@@ -285,3 +289,91 @@ opacity: .6;
 padding: 10px 0;
 }
 /* Footer section ends here */
+
+
+
+
+/* Responsive design starts here (For mobile) */
+@media screen and (max-width:576px) {
+header, .catagory, .welcome, .join, .best-offer, .holiday, .gift, .footer{
+    margin-bottom: 50px;
+}
+header, .welcome, .join, .gift-img, .best-offer, .best-offer-first-div, .best-offer-second-div, .best-offer-third-div, .holiday{
+    width: 100%;
+}
+.best-offer-third-div-img, .best-offer-description, .best-offer-first-div > h2, h4, p,  .best-offer-third-div > h2, .join-tile,.banner-title, .holiday-sub-title, .holiday-title,     .holiday-description,  .footer-title {
+    padding: 0 20px;
+}
+.catagory-img img{
+    width: 100%;
+}
+.welcome-container{
+    text-align: justify;
+}
+.banner-title, .holiday-title {
+    font-size: 54px;
+}
+.holiday-description, .best-offer-description{
+    padding: 0;
+}
+.best-offer-third-div-img, .best-offer-description, .best-offer-first-div > h2, h4, p,  .best-offer-third-div > h2, .join-tile,.banner-title, .holiday-sub-title, .holiday-title,     .holiday-description,  .footer-title {
+    padding: 0 20px;
+}
+.welcome-btn,   .welcome-container{
+    padding: 10px;
+}
+.join{
+    padding: 10px 0;
+}
+.join-btn{
+    margin-bottom: 10px;
+}
+.join-tile,.banner-title, .holiday-sub-title, .holiday-title {
+    text-align: left;
+}
+.best-offer {
+    flex-direction: column;
+    height: auto;
+}  
+.best-offer-img-div img,  .gift{
+    max-width: calc(100% - 40px);
+}
+.best-offer-third-div-img, .footer-container img{
+    width: 90%;
+}
+.holiday{
+    height: auto;
+    background-image: none;
+}
+.holiday-title, .gift-text-title{
+    line-height: 80px;
+}
+.gift-text-title, .gift-text-sub-title, .gift-description{
+    padding: 0 5px;
+}
+.gift-description, .holiday-description, .footer-container {
+    text-align: justify;
+}
+.gift,  .footer-container{
+    padding: 10px;
+}
+.gift-images{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer {
+    max-width: 100%;
+}
+.footer-container img{
+    padding: 0 10px;
+}
+input[type="email"], input[type="submit"]{
+    margin-bottom: 20px;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 60%;
+    text-align: left;
+
+}
+}
